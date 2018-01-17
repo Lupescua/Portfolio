@@ -230,36 +230,36 @@
         <div class="container">
             <form action="action_page.php">
                 <!--php-->
-<div class="label">
+                <div class="label">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-</div>
-<div class="label">
+                </div>
+                <div class="label">
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-</div>
-<div class="label">
+                </div>
+                <div class="label">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
 
-</div>
- <div class="label">
+                </div>
+                <div class="label">
                     <label for="phone_nr">Phone Number</label>
                     <input type="text" id="phone_nr" name="phone_nr" placeholder="Your Phone Number..">
- </div>
-               <div class="label">
+                </div>
+                <div class="label">
                     <label for="country">Country</label>
                     <select id="country" name="country">
                         <option value="czech_republic">Czech Republic</option>
                         <option value="romania">Romania</option>
                         <option value="denmark">Denmark/option>
                     </select>
-               </div>
+                </div>
 
-              <div class="label">
+                <div class="label">
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              </div>
+                </div>
 
                 <input type="submit" value="Submit">
 
@@ -267,25 +267,30 @@
         </div>
     </section>
 
-    <section id="contact"  class="section section--primary">
-        <form action="">
+    <section id="contact" class="section section--primary">
+        <form action="http://cbp.vosk-design.cz/process-form.php" method="GET">
             <h2>Contact me</h2>
-            <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname">
-
-            <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname">
-
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone">
-
-            <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10" id="message"></textarea>
-
-            <button>Dracaris</button>
+            <div class="form_group">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div class="form_group">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div class="form_group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form_group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div class="form_group">
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10" id="message"></textarea>
+                <button>Dracaris</button>
+            </div>
         </form>
     </section>
     <footer>
