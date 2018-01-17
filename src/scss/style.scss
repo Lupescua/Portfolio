@@ -94,11 +94,17 @@ h3 {
     justify-content: center;
 }
 
+
+
 article .companies {
     header {
         display: block;
         background-color: white;
-        width: 10%;
+        width: 40%;
+       img {
+            width: 70%;
+            height: 60%;
+        }
     }
     footer {
         width: 30%;
@@ -106,15 +112,6 @@ article .companies {
             color: white;
         }
     }
-}
-
-article.companies {
-    width: 40%;
-}
-
-article.companies header img {
-    width: 70%;
-    height: 60%;
 }
 
 .site-break {
