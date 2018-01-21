@@ -9,12 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
 </head>
 
 <body>
     <section id="home">
         <div class="icon">
-            <img src="img/Favicon_Adrian_serious_Painting.png" alt="favicon">
+            <img src="img/dacian_wolf.png" alt="favicon">
         </div>
         <ul class="navigation">
             <li>
@@ -54,7 +56,9 @@
             </li>
         </ul>
         <header>
-            <h1 class="name">Adrian Lupescu</h1>
+            <h1 class="name">
+                <strong>Adrian Lupescu</strong>
+            </h1>
             <h2>Davos Seaworth: This is Jon Snow... He's King in the North. </h2>
             <img class="image" src="img/adrian_serious_painting.jpg">
         </header>
@@ -64,63 +68,47 @@
             <br />
             <strong>I take great pride at getting the best results.</strong>
         </h3>
-        <section class="promo">
+        <section class="promo" class="container">
+            <div class="row">
             <!--Companies I worked for and had meaningful results-->
-            <article class="companies">
-                <header>
-                    <a href="https://www.businessdays.ro/en">Business days
+            <article class="companies" class="col-sm-6" >
+
+                    <a href="https://www.businessdays.ro/en">Business Days
                         <br/>Logistics Coordinator</a>
                     <br/>
-                    <img src="img/Business_days.jpg" alt="">
-                </header>
-                <footer>
-                    <!--Meaningful results-->
-                    <p>Business Days is a networking platform dedicated to entrepreneurs and managers whose goal is to create
-                        a healthy and sustainable entrepreneurial culture in Romania.</p>
-                </footer>
-            </article class="companies">
-            <article class="companies">
-                <header>
+                    <img src="img/Business_days.jpg" alt="Business Days">
+
+                <p>Business Days is a networking platform dedicated to entrepreneurs and managers whose goal is to create a
+                    healthy and sustainable entrepreneurial culture in Romania.</p>
+            </article>
+            <article class="companies" class="col-sm-4" >
                     <a href="https://www.sonae.pt/en/">Sonae
                         <br/>Innovation Analyst</a>
                     <br/>
-                    <img src="img/Sonae.jpg" alt="">
-                </header>
-                <footer>
-                    <!--Meaningful results-->
-                    <p>Sonae is a multinational corporation managing a wide portfolio of companies, creating value across several
-                        geographic areas, with a solid culture and highly-developed ability to innovate and execute its actions,
-                        taking the benefits of progress to an ever-increasing number of people.</p>
-                </footer>
-            </article class="companies">
-            <article class="companies">
-                <header>
+                    <img src="img/Sonae.jpg" alt="Sonae">
+                <p>Sonae is a multinational corporation managing a wide portfolio of companies, creating value across several
+                    geographic areas, with a solid culture and highly-developed ability to innovate and execute its actions,
+                    taking the benefits of progress to an ever-increasing number of people.</p>
+            </article>
+            <article class="companies" class="col-sm-4">
                     <a href="https://restartenergy.ro/en//">Restart Energy
                         <br/>Business Development Consultant</a>
                     <br/>
-                    <img src="img/Restart_energy.jpg" alt="">
-                </header>
-                <footer>
-                    <!--Meaningful results-->
-                    <p>Restart Energy, the fastest growing energy provider in the European Union with over 30,000 existing customers,
-                        is building an efficient and transparent ecosystem  —  Restart Energy Democracy (RED) — to bridge
-                        the global divide between energy producers, prosumers and consumers using blockchain technology.</p>
-                </footer>
-            </article class="companies">
-            <article class="companies">
-                <header>
+                    <img src="img/Restart_energy.jpg" alt="Restart Energy">
+                <p>Restart Energy, the fastest growing energy provider in the European Union with over 30,000 existing customers,
+                    is building an efficient and transparent ecosystem  —  Restart Energy Democracy (RED) — to bridge the
+                    global divide between energy producers, prosumers and consumers using blockchain technology.</p>
+            </article>
+            <article class="companies" class="col-sm-4">
                     <a href="http://www.mindshub.ro/">Minds Hub
                         <br/> Founding Member</a>
                     <br/>
-                    <img src="img/Minds_Hub.jpg" alt="">
-                </header>
-                <footer>
-                    <!--Meaningful results-->
-                    <p>Minds Hub is the physical space that brings together, according to common values and passions, students,
-                        professionals and teachers from different fields. It is also the virtual space where tomorrow's leaders
-                        have access to all resources online and offline to grow and make a difference.</p>
-                </footer>
-            </article class="companies">
+                    <img src="img/Minds_Hub.jpg" alt="Minds Hub">
+                <p>Minds Hub is the physical space that brings together, according to common values and passions, students,
+                    professionals and teachers from different fields. It is also the virtual space where tomorrow's leaders
+                    have access to all resources online and offline to grow and make a difference.</p>
+            </article>
+        </div>
         </section>
         <p class="site-break"> </p>
     </section>
@@ -226,67 +214,27 @@
             malesuada quis ornare accumsan, blandit sed diam.</p>
     </section>
     <p class="site-break"> </p>
-    <section id="contact">
-        <div class="container">
-            <form action="action_page.php">
-                <!--php-->
-                <div class="label">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                </div>
-                <div class="label">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                </div>
-                <div class="label">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Your email..">
-
-                </div>
-                <div class="label">
-                    <label for="phone_nr">Phone Number</label>
-                    <input type="text" id="phone_nr" name="phone_nr" placeholder="Your Phone Number..">
-                </div>
-                <div class="label">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="czech_republic">Czech Republic</option>
-                        <option value="romania">Romania</option>
-                        <option value="denmark">Denmark/option>
-                    </select>
-                </div>
-
-                <div class="label">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
-    </section>
 
     <section id="contact" class="section section--primary">
-        <form action="http://cbp.vosk-design.cz/process-form.php" method="GET">
-            <h2>Contact me</h2>
-            <div class="form_group">
+        <h2>Contact me</h2>
+        <form action="http://cbp.vosk-design.cz/process-form.php" method="POST" class="form-contact">
+            <div class="form-group">
                 <label for="firstname">First Name</label>
-                <input type="text" name="firstname" id="firstname">
+                <input type="text" name="firstname" id="firstname" required>
             </div>
-            <div class="form_group">
+            <div class="form-group">
                 <label for="lastname">Last Name</label>
-                <input type="text" name="lastname" id="lastname">
+                <input type="text" name="lastname" id="lastname" required>
             </div>
-            <div class="form_group">
+            <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
             </div>
-            <div class="form_group">
+            <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input type="tel" name="phone" id="phone">
             </div>
-            <div class="form_group">
+            <div class="form-group">
                 <label for="message">Message</label>
                 <textarea name="message" cols="30" rows="10" id="message"></textarea>
                 <button>Dracaris</button>
